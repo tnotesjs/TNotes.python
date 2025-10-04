@@ -2,8 +2,6 @@
 
 <!-- region:toc -->
 
-- [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
-  - [TNotes.yuque.python.0001](https://www.yuque.com/tdahuyou/tnotes.yuque/python.0001)
 - [1. 📝 概述](#1--概述)
 - [2. 💻 demos.1 - 课程实例汇总](#2--demos1---课程实例汇总)
   - [2.1. 温度转换](#21-温度转换)
