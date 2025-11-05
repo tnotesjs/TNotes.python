@@ -2,8 +2,7 @@
 
 <!-- region:toc -->
 
-- [python](#python)
-  - [1. python 学习资源](#1-python-学习资源)
+
 
 <!-- endregion:toc -->
 
