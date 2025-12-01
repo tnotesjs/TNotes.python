@@ -19,11 +19,17 @@
       "src": "https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/assets/icon--python.svg"
     },
     "title": "python",
-    "completed_notes_count": 0,
+    "completed_notes_count": {
+      "25.08": 0,
+      "25.09": 0,
+      "25.10": 0,
+      "25.11": 0,
+      "25.12": 0
+    },
     "details": "python 笔记",
     "link": "https://tnotesjs.github.io/TNotes.python/",
     "created_at": 1754971781000,
-    "updated_at": 1762780411175,
+    "updated_at": 1764548508477,
     "days_since_birth": 9542
   },
   "port": 9542,
