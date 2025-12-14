@@ -20,6 +20,13 @@
     },
     "title": "python",
     "completed_notes_count": {
+      "25.01": 0,
+      "25.02": 0,
+      "25.03": 0,
+      "25.04": 0,
+      "25.05": 0,
+      "25.06": 0,
+      "25.07": 0,
       "25.08": 0,
       "25.09": 0,
       "25.10": 0,
@@ -29,7 +36,7 @@
     "details": "python 笔记",
     "link": "https://tnotesjs.github.io/TNotes.python/",
     "created_at": 1754971781000,
-    "updated_at": 1764578496009,
+    "updated_at": 1765719226649,
     "days_since_birth": 9542
   },
   "port": 9542,
