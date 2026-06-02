@@ -31,13 +31,14 @@
       "26.01": 0,
       "26.02": 0,
       "26.03": 0,
-      "26.04": 0
+      "26.04": 0,
+      "26.06": 0
     },
     "details": "python 笔记",
     "link": "https://tnotesjs.github.io/TNotes.python/",
     "created_at": 1754971781000,
-    "updated_at": 1775000944000,
-    "days_since_birth": 9774
+    "updated_at": 1780377167000,
+    "days_since_birth": 9836
   },
   "port": 9542,
   "menuItems": [
