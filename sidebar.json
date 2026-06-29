@@ -1,6 +1,6 @@
 [
   {
-    "text": "1. TNotes.python",
+    "text": "TNotes.python",
     "collapsed": true,
     "items": [
       {
@@ -17,13 +17,13 @@
       }
     ],
     "folderPath": [
-      "1. TNotes.python"
+      "TNotes.python"
     ],
     "tocLineIndex": 0,
     "nodeId": "line:0"
   },
   {
-    "text": "2. Python 入门基础",
+    "text": "Python 入门基础",
     "collapsed": true,
     "items": [
       {
@@ -46,13 +46,13 @@
       }
     ],
     "folderPath": [
-      "2. Python 入门基础"
+      "Python 入门基础"
     ],
     "tocLineIndex": 3,
     "nodeId": "line:3"
   },
   {
-    "text": "3. Python 语言基础",
+    "text": "Python 语言基础",
     "collapsed": true,
     "items": [
       {
@@ -81,13 +81,13 @@
       }
     ],
     "folderPath": [
-      "3. Python 语言基础"
+      "Python 语言基础"
     ],
     "tocLineIndex": 7,
     "nodeId": "line:7"
   },
   {
-    "text": "4. 数据结构与容器",
+    "text": "数据结构与容器",
     "collapsed": true,
     "items": [
       {
@@ -134,13 +134,13 @@
       }
     ],
     "folderPath": [
-      "4. 数据结构与容器"
+      "数据结构与容器"
     ],
     "tocLineIndex": 12,
     "nodeId": "line:12"
   },
   {
-    "text": "5. 函数与模块化",
+    "text": "函数与模块化",
     "collapsed": true,
     "items": [
       {
@@ -169,13 +169,13 @@
       }
     ],
     "folderPath": [
-      "5. 函数与模块化"
+      "函数与模块化"
     ],
     "tocLineIndex": 20,
     "nodeId": "line:20"
   },
   {
-    "text": "6. 面向对象编程",
+    "text": "面向对象编程",
     "collapsed": true,
     "items": [
       {
@@ -210,13 +210,13 @@
       }
     ],
     "folderPath": [
-      "6. 面向对象编程"
+      "面向对象编程"
     ],
     "tocLineIndex": 25,
     "nodeId": "line:25"
   },
   {
-    "text": "7. 错误处理与文件操作",
+    "text": "错误处理与文件操作",
     "collapsed": true,
     "items": [
       {
@@ -245,13 +245,13 @@
       }
     ],
     "folderPath": [
-      "7. 错误处理与文件操作"
+      "错误处理与文件操作"
     ],
     "tocLineIndex": 31,
     "nodeId": "line:31"
   },
   {
-    "text": "8. 进阶主题",
+    "text": "进阶主题",
     "collapsed": true,
     "items": [
       {
@@ -280,13 +280,13 @@
       }
     ],
     "folderPath": [
-      "8. 进阶主题"
+      "进阶主题"
     ],
     "tocLineIndex": 36,
     "nodeId": "line:36"
   },
   {
-    "text": "9. 数据库编程",
+    "text": "数据库编程",
     "collapsed": true,
     "items": [
       {
@@ -315,13 +315,13 @@
       }
     ],
     "folderPath": [
-      "9. 数据库编程"
+      "数据库编程"
     ],
     "tocLineIndex": 41,
     "nodeId": "line:41"
   },
   {
-    "text": "10. Python Web 开发",
+    "text": "Python Web 开发",
     "collapsed": true,
     "items": [
       {
@@ -356,13 +356,13 @@
       }
     ],
     "folderPath": [
-      "10. Python Web 开发"
+      "Python Web 开发"
     ],
     "tocLineIndex": 46,
     "nodeId": "line:46"
   },
   {
-    "text": "11. 数据分析与科学计算",
+    "text": "数据分析与科学计算",
     "collapsed": true,
     "items": [
       {
@@ -391,13 +391,13 @@
       }
     ],
     "folderPath": [
-      "11. 数据分析与科学计算"
+      "数据分析与科学计算"
     ],
     "tocLineIndex": 52,
     "nodeId": "line:52"
   },
   {
-    "text": "12. 测试与调试",
+    "text": "测试与调试",
     "collapsed": true,
     "items": [
       {
@@ -420,13 +420,13 @@
       }
     ],
     "folderPath": [
-      "12. 测试与调试"
+      "测试与调试"
     ],
     "tocLineIndex": 57,
     "nodeId": "line:57"
   },
   {
-    "text": "13. 项目实战与部署",
+    "text": "项目实战与部署",
     "collapsed": true,
     "items": [
       {
@@ -467,13 +467,13 @@
       }
     ],
     "folderPath": [
-      "13. 项目实战与部署"
+      "项目实战与部署"
     ],
     "tocLineIndex": 61,
     "nodeId": "line:61"
   },
   {
-    "text": "14. TODO",
+    "text": "TODO",
     "collapsed": true,
     "items": [
       {
@@ -748,7 +748,7 @@
       }
     ],
     "folderPath": [
-      "14. TODO"
+      "TODO"
     ],
     "tocLineIndex": 68,
     "nodeId": "line:68"
