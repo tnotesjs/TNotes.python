@@ -2,27 +2,27 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 什么是 ORM？](#3--什么是-orm)
-- [4. 🤔 如何使用 SQLAlchemy？](#4--如何使用-sqlalchemy)
-- [5. 🤔 如何定义模型关系？](#5--如何定义模型关系)
-- [6. 🤔 Peewee 和 Tortoise ORM 是什么？](#6--peewee-和-tortoise-orm-是什么)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. 什么是 ORM？](#3-什么是-orm)
+- [4. 如何使用 SQLAlchemy？](#4-如何使用-sqlalchemy)
+- [5. 如何定义模型关系？](#5-如何定义模型关系)
+- [6. Peewee 和 Tortoise ORM 是什么？](#6-peewee-和-tortoise-orm-是什么)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - SQLAlchemy 核心概念
 - 定义模型与关系
 - CRUD 操作
 - 会话管理与查询
 
-## 2. 🫧 评价
+## 2. 评价
 
 - todo
 
-## 3. 🤔 什么是 ORM？
+## 3. 什么是 ORM？
 
 ORM（Object-Relational Mapping，对象关系映射）是一种将数据库表映射为 Python 类的技术，允许用面向对象的方式操作数据库，而不需要写原始 SQL。
 
@@ -32,7 +32,7 @@ ORM 的核心概念：
 - 实例对应行
 - 属性对应字段
 
-## 4. 🤔 如何使用 SQLAlchemy？
+## 4. 如何使用 SQLAlchemy？
 
 SQLAlchemy 是 Python 最流行的 ORM 框架：
 
@@ -87,7 +87,7 @@ session.commit()
 session.close()
 ```
 
-## 5. 🤔 如何定义模型关系？
+## 5. 如何定义模型关系？
 
 SQLAlchemy 支持定义表之间的关联关系：
 
@@ -128,7 +128,7 @@ for book in author.books:
     print(f"{author.name} 的作品：{book.title}")
 ```
 
-## 6. 🤔 Peewee 和 Tortoise ORM 是什么？
+## 6. Peewee 和 Tortoise ORM 是什么？
 
 Peewee 是一个轻量级 ORM，语法简洁：
 

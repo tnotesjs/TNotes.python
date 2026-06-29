@@ -2,23 +2,23 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 如何使用 MongoDB？](#3--如何使用-mongodb)
-- [4. 🤔 如何使用 Redis？](#4--如何使用-redis)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. 如何使用 MongoDB？](#3-如何使用-mongodb)
+- [4. 如何使用 Redis？](#4-如何使用-redis)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - Redis 连接与操作（redis-py）
 - MongoDB 连接与操作（pymongo）
 
-## 2. 🫧 评价
+## 2. 评价
 
 - todo
 
-## 3. 🤔 如何使用 MongoDB？
+## 3. 如何使用 MongoDB？
 
 MongoDB 是最流行的文档型 NoSQL 数据库，Python 通过 pymongo 操作：
 
@@ -62,7 +62,7 @@ collection.delete_one({"name": "Charlie"})
 client.close()
 ```
 
-## 4. 🤔 如何使用 Redis？
+## 4. 如何使用 Redis？
 
 Redis 是高性能的键值对存储数据库，常用于缓存和会话管理：
 

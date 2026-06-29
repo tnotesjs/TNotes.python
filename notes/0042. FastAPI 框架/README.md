@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 如何创建 FastAPI 应用？](#3--如何创建-fastapi-应用)
-- [4. 🤔 如何使用 Pydantic 模型？](#4--如何使用-pydantic-模型)
-- [5. 🤔 FastAPI 的依赖注入怎么用？](#5--fastapi-的依赖注入怎么用)
-- [6. 🤔 FastAPI 如何处理异步操作？](#6--fastapi-如何处理异步操作)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. 如何创建 FastAPI 应用？](#3-如何创建-fastapi-应用)
+- [4. 如何使用 Pydantic 模型？](#4-如何使用-pydantic-模型)
+- [5. FastAPI 的依赖注入怎么用？](#5-fastapi-的依赖注入怎么用)
+- [6. FastAPI 如何处理异步操作？](#6-fastapi-如何处理异步操作)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - FastAPI 特性与优势
 - 路径操作与参数声明
@@ -20,11 +20,11 @@
 - 异步支持
 - 自动生成的 API 文档
 
-## 2. 🫧 评价
+## 2. 评价
 
 - todo
 
-## 3. 🤔 如何创建 FastAPI 应用？
+## 3. 如何创建 FastAPI 应用？
 
 FastAPI 是现代、高性能的异步 Web 框架：
 
@@ -50,7 +50,7 @@ FastAPI 的核心优势：
 - 基于 Python 类型提示的请求验证
 - 异步支持，性能接近 Node.js 和 Go
 
-## 4. 🤔 如何使用 Pydantic 模型？
+## 4. 如何使用 Pydantic 模型？
 
 FastAPI 使用 Pydantic 模型进行数据验证和序列化：
 
@@ -87,7 +87,7 @@ async def list_users():
 
 请求体会自动验证，不符合要求时返回 422 错误。
 
-## 5. 🤔 FastAPI 的依赖注入怎么用？
+## 5. FastAPI 的依赖注入怎么用？
 
 依赖注入是 FastAPI 的核心特性，用于处理公共逻辑：
 
@@ -117,7 +117,7 @@ async def admin(user: dict = Depends(get_current_user)):
     return {"message": f"欢迎管理员 {user['username']}"}
 ```
 
-## 6. 🤔 FastAPI 如何处理异步操作？
+## 6. FastAPI 如何处理异步操作？
 
 FastAPI 原生支持 async/await，可以高效处理异步操作：
 

@@ -2,26 +2,26 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 如何使用 SQLite？](#3--如何使用-sqlite)
-- [4. 🤔 如何使用 MySQL？](#4--如何使用-mysql)
-- [5. 🤔 如何使用 PostgreSQL？](#5--如何使用-postgresql)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. 如何使用 SQLite？](#3-如何使用-sqlite)
+- [4. 如何使用 MySQL？](#4-如何使用-mysql)
+- [5. 如何使用 PostgreSQL？](#5-如何使用-postgresql)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - SQLite 的使用（sqlite3 模块）
 - MySQL 连接与操作（PyMySQL、mysql-connector）
 - PostgreSQL 连接与操作（psycopg2）
 - 连接池与 ORM 思想
 
-## 2. 🫧 评价
+## 2. 评价
 
 - todo
 
-## 3. 🤔 如何使用 SQLite？
+## 3. 如何使用 SQLite？
 
 SQLite 是 Python 内置的轻量级关系型数据库，无需安装额外软件：
 
@@ -78,7 +78,7 @@ with sqlite3.connect("example.db") as conn:
     # 退出 with 时自动 commit，出错则自动 rollback
 ```
 
-## 4. 🤔 如何使用 MySQL？
+## 4. 如何使用 MySQL？
 
 使用 pymysql 或 mysql-connector-python 操作 MySQL 数据库：
 
@@ -120,7 +120,7 @@ finally:
     conn.close()
 ```
 
-## 5. 🤔 如何使用 PostgreSQL？
+## 5. 如何使用 PostgreSQL？
 
 使用 psycopg2 操作 PostgreSQL 数据库：
 

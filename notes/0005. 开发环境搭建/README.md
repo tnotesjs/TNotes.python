@@ -2,27 +2,27 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 如何选择适合的编辑器或 IDE？](#3--如何选择适合的编辑器或-ide)
-- [4. 🤔 什么是虚拟环境？如何创建和管理？](#4--什么是虚拟环境如何创建和管理)
-- [5. 🤔 如何使用 pip 管理包？](#5--如何使用-pip-管理包)
-- [6. 🤔 如何使用 requirements.txt 管理项目依赖？](#6--如何使用-requirementstxt-管理项目依赖)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. 如何选择适合的编辑器或 IDE？](#3-如何选择适合的编辑器或-ide)
+- [4. 什么是虚拟环境？如何创建和管理？](#4-什么是虚拟环境如何创建和管理)
+- [5. 如何使用 pip 管理包？](#5-如何使用-pip-管理包)
+- [6. 如何使用 requirements.txt 管理项目依赖？](#6-如何使用-requirementstxt-管理项目依赖)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - 文本编辑器与 IDE 的选择（VS Code、PyCharm、Jupyter）
 - 虚拟环境（venv、virtualenv）的创建与管理
 - 包管理器 pip 的使用
 - requirements.txt 与依赖管理
 
-## 2. 🫧 评价
+## 2. 评价
 
 - todo
 
-## 3. 🤔 如何选择适合的编辑器或 IDE？
+## 3. 如何选择适合的编辑器或 IDE？
 
 Python 开发可以使用多种编辑器和 IDE，以下是几个主流选择：
 
@@ -54,7 +54,7 @@ Jupyter Notebook：
 - Vim/Neovim：终端编辑器，学习曲线较陡但效率极高
 - Spyder：面向科学计算的 IDE，自带变量查看器和绘图窗口
 
-## 4. 🤔 什么是虚拟环境？如何创建和管理？
+## 4. 什么是虚拟环境？如何创建和管理？
 
 虚拟环境是一个独立的 Python 运行环境，它拥有自己的 Python 解释器和第三方包。通过虚拟环境，不同项目可以使用不同版本的依赖包，避免相互冲突。
 
@@ -97,7 +97,7 @@ venv 和 virtualenv 的区别：
 - virtualenv 创建环境的速度通常更快
 - 对于新项目，推荐使用 venv
 
-## 5. 🤔 如何使用 pip 管理包？
+## 5. 如何使用 pip 管理包？
 
 pip 是 Python 的包管理工具，用于安装、升级和卸载第三方包。
 
@@ -136,7 +136,7 @@ pip install requests -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-## 6. 🤔 如何使用 requirements.txt 管理项目依赖？
+## 6. 如何使用 requirements.txt 管理项目依赖？
 
 requirements.txt 是 Python 项目中常用的依赖声明文件，记录了项目所需的所有第三方包及其版本号。
 

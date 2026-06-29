@@ -2,27 +2,27 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 Python 中的公开属性与私有属性是什么？](#3--python-中的公开属性与私有属性是什么)
-- [4. 🤔 property 装饰器怎么用？](#4--property-装饰器怎么用)
-- [5. 🤔 什么是静态方法 @staticmethod？](#5--什么是静态方法-staticmethod)
-- [6. 🤔 什么是类方法 @classmethod？](#6--什么是类方法-classmethod)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. Python 中的公开属性与私有属性是什么？](#3-python-中的公开属性与私有属性是什么)
+- [4. property 装饰器怎么用？](#4-property-装饰器怎么用)
+- [5. 什么是静态方法 @staticmethod？](#5-什么是静态方法-staticmethod)
+- [6. 什么是类方法 @classmethod？](#6-什么是类方法-classmethod)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - 公开属性与私有属性（命名修饰）
 - property 装饰器（getter、setter、deleter）
 - 静态方法（@staticmethod）
 - 类方法（@classmethod）
 
-## 2. 🫧 评价
+## 2. 评价
 
 - todo
 
-## 3. 🤔 Python 中的公开属性与私有属性是什么？
+## 3. Python 中的公开属性与私有属性是什么？
 
 Python 通过命名约定来实现访问控制，而不是像 Java 那样使用关键字：
 
@@ -53,7 +53,7 @@ print(p._Person__salary)  # 50000（可以通过名称修饰访问，但不推�
 - **name：私有属性（名称修饰，变为 \_ClassName**name）
 - `__name__`：特殊属性（魔法属性，由 Python 定义）
 
-## 4. 🤔 property 装饰器怎么用？
+## 4. property 装饰器怎么用？
 
 property 装饰器可以将方法伪装成属性，提供更优雅的访问控制：
 
@@ -96,7 +96,7 @@ print(t.fahrenheit)   # 32.0
 # t.fahrenheit = 100  # AttributeError：只读属性不能赋值
 ```
 
-## 5. 🤔 什么是静态方法 @staticmethod？
+## 5. 什么是静态方法 @staticmethod？
 
 静态方法不需要访问实例或类，类似于普通函数，只是逻辑上属于某个类：
 
@@ -119,7 +119,7 @@ m = MathUtils()
 print(m.add(3, 5))  # 8
 ```
 
-## 6. 🤔 什么是类方法 @classmethod？
+## 6. 什么是类方法 @classmethod？
 
 类方法的第一个参数是类本身（通常命名为 cls），而不是实例：
 

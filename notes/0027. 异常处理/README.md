@@ -2,17 +2,17 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 什么是异常？常见的内置异常有哪些？](#3--什么是异常常见的内置异常有哪些)
-- [4. 🤔 try-except-else-finally 结构怎么用？](#4--try-except-else-finally-结构怎么用)
-- [5. 🤔 如何自定义异常？](#5--如何自定义异常)
-- [6. 🤔 raise 和异常链是什么？](#6--raise-和异常链是什么)
-- [7. 🤔 如何使用断言 assert？](#7--如何使用断言-assert)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. 什么是异常？常见的内置异常有哪些？](#3-什么是异常常见的内置异常有哪些)
+- [4. try-except-else-finally 结构怎么用？](#4-try-except-else-finally-结构怎么用)
+- [5. 如何自定义异常？](#5-如何自定义异常)
+- [6. raise 和异常链是什么？](#6-raise-和异常链是什么)
+- [7. 如何使用断言 assert？](#7-如何使用断言-assert)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - 异常与错误的概念
 - try-except 语句
@@ -21,11 +21,11 @@
 - 自定义异常类
 - 断言（assert）的使用
 
-## 2. 🫧 评价
+## 2. 评价
 
 - todo
 
-## 3. 🤔 什么是异常？常见的内置异常有哪些？
+## 3. 什么是异常？常见的内置异常有哪些？
 
 异常是程序运行时发生的错误事件，会中断程序的正常执行流程。Python 提供了丰富的内置异常类型：
 
@@ -59,7 +59,7 @@ open("nonexistent.txt")  # FileNotFoundError
 import nonexistent_module  # ModuleNotFoundError
 ```
 
-## 4. 🤔 try-except-else-finally 结构怎么用？
+## 4. try-except-else-finally 结构怎么用？
 
 ```python
 try:
@@ -84,7 +84,7 @@ finally:
 - else：只在 try 中没有发生异常时执行
 - finally：无论是否发生异常都会执行，通常用于资源清理
 
-## 5. 🤔 如何自定义异常？
+## 5. 如何自定义异常？
 
 通过继承 Exception 类创建自定义异常：
 
@@ -116,7 +116,7 @@ except InsufficientBalanceError as e:
     print(e.amount)   # 1500
 ```
 
-## 6. 🤔 raise 和异常链是什么？
+## 6. raise 和异常链是什么？
 
 raise 用于主动抛出异常，异常链用于保留原始异常信息：
 
@@ -159,7 +159,7 @@ except ZeroDivisionError:
     raise  # 重新抛出当前异常
 ```
 
-## 7. 🤔 如何使用断言 assert？
+## 7. 如何使用断言 assert？
 
 assert 用于调试和开发阶段的条件检查，如果条件为 False 则抛出 AssertionError：
 

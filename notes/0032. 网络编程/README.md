@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 什么是 Socket 编程？](#3--什么是-socket-编程)
-- [4. 🤔 如何发送 HTTP 请求？](#4--如何发送-http-请求)
-- [5. 🤔 什么是简单的 HTTP 服务器？](#5--什么是简单的-http-服务器)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. 什么是 Socket 编程？](#3-什么是-socket-编程)
+- [4. 如何发送 HTTP 请求？](#4-如何发送-http-请求)
+- [5. 什么是简单的 HTTP 服务器？](#5-什么是简单的-http-服务器)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - Socket 编程基础
 - TCP 服务器与客户端
@@ -18,11 +18,11 @@
 - HTTP 请求（urllib、requests 库）
 - WebSocket 简介
 
-## 2. 🫧 评价
+## 2. 评价
 
 - todo
 
-## 3. 🤔 什么是 Socket 编程？
+## 3. 什么是 Socket 编程？
 
 Socket（套接字）是网络通信的基础，Python 通过 socket 模块提供支持：
 
@@ -58,7 +58,7 @@ client.close()
 
 :::
 
-## 4. 🤔 如何发送 HTTP 请求？
+## 4. 如何发送 HTTP 请求？
 
 Python 有多种方式发送 HTTP 请求，最常用的是 requests 库：
 
@@ -102,7 +102,7 @@ with urlopen("https://api.github.com/users/octocat") as response:
     print(data["login"])
 ```
 
-## 5. 🤔 什么是简单的 HTTP 服务器？
+## 5. 什么是简单的 HTTP 服务器？
 
 Python 内置了简单的 HTTP 服务器，可用于开发和测试：
 

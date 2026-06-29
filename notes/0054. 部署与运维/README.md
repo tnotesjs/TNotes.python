@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 如何用 Docker 部署 Python 应用？](#3--如何用-docker-部署-python-应用)
-- [4. 🤔 如何配置 CI/CD？](#4--如何配置-cicd)
-- [5. 🤔 生产环境部署有哪些方式？](#5--生产环境部署有哪些方式)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. 如何用 Docker 部署 Python 应用？](#3-如何用-docker-部署-python-应用)
+- [4. 如何配置 CI/CD？](#4-如何配置-cicd)
+- [5. 生产环境部署有哪些方式？](#5-生产环境部署有哪些方式)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - 使用 Gunicorn/uWSGI 部署 Web 应用
 - Nginx 配置与反向代理
@@ -18,11 +18,11 @@
 - 使用 Supervisor 管理进程
 - 云平台部署（AWS、阿里云、Heroku）
 
-## 2. 🫧 评价
+## 2. 评价
 
 - todo
 
-## 3. 🤔 如何用 Docker 部署 Python 应用？
+## 3. 如何用 Docker 部署 Python 应用？
 
 ```dockerfile
 # Dockerfile
@@ -74,7 +74,7 @@ docker-compose logs -f web
 docker-compose down
 ```
 
-## 4. 🤔 如何配置 CI/CD？
+## 4. 如何配置 CI/CD？
 
 GitHub Actions 配置示例：
 
@@ -108,7 +108,7 @@ jobs:
           ruff check src/
 ```
 
-## 5. 🤔 生产环境部署有哪些方式？
+## 5. 生产环境部署有哪些方式？
 
 常见的部署方式：
 

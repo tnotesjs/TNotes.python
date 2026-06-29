@@ -2,24 +2,24 @@
 
 <!-- region:toc -->
 
-- [1. 🎯 本节内容](#1--本节内容)
-- [2. 🫧 评价](#2--评价)
-- [3. 🤔 Web 开发的基本概念是什么？](#3--web-开发的基本概念是什么)
-- [4. 🤔 WSGI 和 ASGI 是什么？](#4--wsgi-和-asgi-是什么)
-- [5. 🤔 主流 Python Web 框架有哪些？](#5--主流-python-web-框架有哪些)
+- [1. 本节内容](#1-本节内容)
+- [2. 评价](#2-评价)
+- [3. Web 开发的基本概念是什么？](#3-web-开发的基本概念是什么)
+- [4. WSGI 和 ASGI 是什么？](#4-wsgi-和-asgi-是什么)
+- [5. 主流 Python Web 框架有哪些？](#5-主流-python-web-框架有哪些)
 
 <!-- endregion:toc -->
 
-## 1. 🎯 本节内容
+## 1. 本节内容
 
 - WSGI 协议
 - 简单的 Web 服务器实现
 
-## 2. 🫧 评价
+## 2. 评价
 
 - todo
 
-## 3. 🤔 Web 开发的基本概念是什么？
+## 3. Web 开发的基本概念是什么？
 
 Web 开发围绕 HTTP 协议进行，客户端发送请求，服务器返回响应：
 
@@ -38,7 +38,7 @@ Web 开发围绕 HTTP 协议进行，客户端发送请求，服务器返回响�
 
 Python Web 框架的作用是简化 Web 开发，处理 HTTP 请求解析、路由分发、模板渲染等底层工作。
 
-## 4. 🤔 WSGI 和 ASGI 是什么？
+## 4. WSGI 和 ASGI 是什么？
 
 WSGI（Web Server Gateway Interface）是 Python Web 应用与 Web 服务器之间的标准接口：
 
@@ -78,7 +78,7 @@ async def application(scope, receive, send):
 - Gunicorn：WSGI 服务器，用于生产环境
 - Uvicorn：ASGI 服务器，支持异步
 
-## 5. 🤔 主流 Python Web 框架有哪些？
+## 5. 主流 Python Web 框架有哪些？
 
 主流 Python Web 框架的对比：
 
