@@ -3,10 +3,9 @@
 <!-- region:toc -->
 
 - [1. 本节内容](#1-本节内容)
-- [2. 评价](#2-评价)
-- [3. Matplotlib 基础绘图怎么用？](#3-matplotlib-基础绘图怎么用)
-- [4. Seaborn 绘图怎么用？](#4-seaborn-绘图怎么用)
-- [5. 如何绘制子图和复合图？](#5-如何绘制子图和复合图)
+- [2. Matplotlib 基础绘图怎么用？](#2-matplotlib-基础绘图怎么用)
+- [3. Seaborn 绘图怎么用？](#3-seaborn-绘图怎么用)
+- [4. 如何绘制子图和复合图？](#4-如何绘制子图和复合图)
 
 <!-- endregion:toc -->
 
@@ -18,11 +17,7 @@
 - Seaborn 统计可视化
 - Plotly 交互式可视化
 
-## 2. 评价
-
-- todo
-
-## 3. Matplotlib 基础绘图怎么用？
+## 2. Matplotlib 基础绘图怎么用？
 
 Matplotlib 是 Python 最基础的绘图库：
 
@@ -74,7 +69,7 @@ plt.title("编程语言占比")
 plt.show()
 ```
 
-## 4. Seaborn 绘图怎么用？
+## 3. Seaborn 绘图怎么用？
 
 Seaborn 是基于 Matplotlib 的统计图表库，提供更美观的默认样式：
 
@@ -107,7 +102,7 @@ sns.pairplot(tips, hue="sex")
 plt.show()
 ```
 
-## 5. 如何绘制子图和复合图？
+## 4. 如何绘制子图和复合图？
 
 ```python
 import matplotlib.pyplot as plt

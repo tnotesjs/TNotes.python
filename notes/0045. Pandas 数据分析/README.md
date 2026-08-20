@@ -3,11 +3,10 @@
 <!-- region:toc -->
 
 - [1. 本节内容](#1-本节内容)
-- [2. 评价](#2-评价)
-- [3. Series 和 DataFrame 是什么？](#3-series-和-dataframe-是什么)
-- [4. 如何读写数据文件？](#4-如何读写数据文件)
-- [5. 如何进行数据筛选和操作？](#5-如何进行数据筛选和操作)
-- [6. 如何处理缺失值？](#6-如何处理缺失值)
+- [2. Series 和 DataFrame 是什么？](#2-series-和-dataframe-是什么)
+- [3. 如何读写数据文件？](#3-如何读写数据文件)
+- [4. 如何进行数据筛选和操作？](#4-如何进行数据筛选和操作)
+- [5. 如何处理缺失值？](#5-如何处理缺失值)
 
 <!-- endregion:toc -->
 
@@ -21,11 +20,7 @@
 - 数据合并与连接（merge、concat）
 - 时间序列分析
 
-## 2. 评价
-
-- todo
-
-## 3. Series 和 DataFrame 是什么？
+## 2. Series 和 DataFrame 是什么？
 
 Pandas 的两个核心数据结构：
 
@@ -55,7 +50,7 @@ print(df.describe()) # 统计摘要
 print(df.info())   # 数据概览
 ```
 
-## 4. 如何读写数据文件？
+## 3. 如何读写数据文件？
 
 ::: code-group
 
@@ -88,7 +83,7 @@ df.to_json("output.json", orient="records", force_ascii=False)
 
 :::
 
-## 5. 如何进行数据筛选和操作？
+## 4. 如何进行数据筛选和操作？
 
 ```python
 import pandas as pd
@@ -123,7 +118,7 @@ df["年薪"] = df["薪资"] * 12
 df = df.drop(columns=["年薪"])
 ```
 
-## 6. 如何处理缺失值？
+## 5. 如何处理缺失值？
 
 ```python
 import pandas as pd

@@ -3,10 +3,9 @@
 <!-- region:toc -->
 
 - [1. 本节内容](#1-本节内容)
-- [2. 评价](#2-评价)
-- [3. Python 有哪些调试方法？](#3-python-有哪些调试方法)
-- [4. 如何使用 logging 记录日志？](#4-如何使用-logging-记录日志)
-- [5. 如何进行性能分析？](#5-如何进行性能分析)
+- [2. Python 有哪些调试方法？](#2-python-有哪些调试方法)
+- [3. 如何使用 logging 记录日志？](#3-如何使用-logging-记录日志)
+- [4. 如何进行性能分析？](#4-如何进行性能分析)
 
 <!-- endregion:toc -->
 
@@ -18,11 +17,7 @@
 - 性能分析（cProfile）
 - 代码优化技巧
 
-## 2. 评价
-
-- todo
-
-## 3. Python 有哪些调试方法？
+## 2. Python 有哪些调试方法？
 
 ::: code-group
 
@@ -65,7 +60,7 @@ def process(data):
 
 :::
 
-## 4. 如何使用 logging 记录日志？
+## 3. 如何使用 logging 记录日志？
 
 logging 模块提供灵活的日志记录功能：
 
@@ -95,7 +90,7 @@ def process_order(order_id):
 
 日志级别：DEBUG < INFO < WARNING < ERROR < CRITICAL
 
-## 5. 如何进行性能分析？
+## 4. 如何进行性能分析？
 
 ::: code-group
 

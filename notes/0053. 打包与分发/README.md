@@ -3,10 +3,9 @@
 <!-- region:toc -->
 
 - [1. 本节内容](#1-本节内容)
-- [2. 评价](#2-评价)
-- [3. pyproject.toml 怎么配置？](#3-pyprojecttoml-怎么配置)
-- [4. 如何打包和发布到 PyPI？](#4-如何打包和发布到-pypi)
-- [5. 什么是命令行工具？](#5-什么是命令行工具)
+- [2. pyproject.toml 怎么配置？](#2-pyprojecttoml-怎么配置)
+- [3. 如何打包和发布到 PyPI？](#3-如何打包和发布到-pypi)
+- [4. 什么是命令行工具？](#4-什么是命令行工具)
 
 <!-- endregion:toc -->
 
@@ -17,11 +16,7 @@
 - 发布到 PyPI
 - 创建可执行文件（PyInstaller）
 
-## 2. 评价
-
-- todo
-
-## 3. pyproject.toml 怎么配置？
+## 2. pyproject.toml 怎么配置？
 
 pyproject.toml 是 Python 项目的现代配置文件，替代了 setup.py：
 
@@ -57,7 +52,7 @@ dev = [
 myapp = "myproject.main:cli"
 ```
 
-## 4. 如何打包和发布到 PyPI？
+## 3. 如何打包和发布到 PyPI？
 
 ```bash
 # 安装打包工具
@@ -79,7 +74,7 @@ twine upload dist/*
 pip install myproject
 ```
 
-## 5. 什么是命令行工具？
+## 4. 什么是命令行工具？
 
 使用 click 或 argparse 创建命令行工具：
 

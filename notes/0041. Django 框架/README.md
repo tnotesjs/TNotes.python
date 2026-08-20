@@ -3,11 +3,10 @@
 <!-- region:toc -->
 
 - [1. 本节内容](#1-本节内容)
-- [2. 评价](#2-评价)
-- [3. 如何创建 Django 项目？](#3-如何创建-django-项目)
-- [4. Django 的 MVT 架构是什么？](#4-django-的-mvt-架构是什么)
-- [5. Django ORM 怎么用？](#5-django-orm-怎么用)
-- [6. Django Admin 和中间件是什么？](#6-django-admin-和中间件是什么)
+- [2. 如何创建 Django 项目？](#2-如何创建-django-项目)
+- [3. Django 的 MVT 架构是什么？](#3-django-的-mvt-架构是什么)
+- [4. Django ORM 怎么用？](#4-django-orm-怎么用)
+- [5. Django Admin 和中间件是什么？](#5-django-admin-和中间件是什么)
 
 <!-- endregion:toc -->
 
@@ -23,11 +22,7 @@
 - 用户认证系统
 - 中间件与信号
 
-## 2. 评价
-
-- todo
-
-## 3. 如何创建 Django 项目？
+## 2. 如何创建 Django 项目？
 
 Django 是一个全功能的 Web 框架，提供了开箱即用的工具：
 
@@ -62,7 +57,7 @@ myproject/
         admin.py       # 后台管理
 ```
 
-## 4. Django 的 MVT 架构是什么？
+## 3. Django 的 MVT 架构是什么？
 
 Django 采用 MVT（Model-View-Template）架构：
 
@@ -110,7 +105,7 @@ urlpatterns = [
 
 :::
 
-## 5. Django ORM 怎么用？
+## 4. Django ORM 怎么用？
 
 Django 自带强大的 ORM，支持丰富的数据库操作：
 
@@ -142,7 +137,7 @@ articles = Article.objects.filter(
 ).exclude(title__contains="草稿")
 ```
 
-## 6. Django Admin 和中间件是什么？
+## 5. Django Admin 和中间件是什么？
 
 Django Admin 提供开箱即用的后台管理界面：
 

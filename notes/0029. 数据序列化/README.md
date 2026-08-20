@@ -3,11 +3,10 @@
 <!-- region:toc -->
 
 - [1. 本节内容](#1-本节内容)
-- [2. 评价](#2-评价)
-- [3. 什么是 JSON 序列化？](#3-什么是-json-序列化)
-- [4. 什么是 CSV 文件处理？](#4-什么是-csv-文件处理)
-- [5. 什么是 pickle 序列化？](#5-什么是-pickle-序列化)
-- [6. 如何使用 YAML 和 TOML？](#6-如何使用-yaml-和-toml)
+- [2. 什么是 JSON 序列化？](#2-什么是-json-序列化)
+- [3. 什么是 CSV 文件处理？](#3-什么是-csv-文件处理)
+- [4. 什么是 pickle 序列化？](#4-什么是-pickle-序列化)
+- [5. 如何使用 YAML 和 TOML？](#5-如何使用-yaml-和-toml)
 
 <!-- endregion:toc -->
 
@@ -18,11 +17,7 @@
 - 使用 pickle 进行对象序列化
 - XML 与 YAML 简介
 
-## 2. 评价
-
-- todo
-
-## 3. 什么是 JSON 序列化？
+## 2. 什么是 JSON 序列化？
 
 JSON（JavaScript Object Notation）是最常用的数据交换格式，Python 通过 json 模块来处理：
 
@@ -64,7 +59,7 @@ with open("data.json", "r", encoding="utf-8") as f:
 
 :::
 
-## 4. 什么是 CSV 文件处理？
+## 3. 什么是 CSV 文件处理？
 
 CSV（Comma-Separated Values）是常用的表格数据格式：
 
@@ -105,7 +100,7 @@ with open("data.csv", "r", encoding="utf-8") as f:
 
 :::
 
-## 5. 什么是 pickle 序列化？
+## 4. 什么是 pickle 序列化？
 
 pickle 用于将 Python 对象序列化为二进制格式，支持几乎所有 Python 类型：
 
@@ -137,7 +132,7 @@ with open("data.pkl", "rb") as f:
 
 注意：pickle 反序列化可以执行任意代码，不要加载不可信的 pickle 数据。
 
-## 6. 如何使用 YAML 和 TOML？
+## 5. 如何使用 YAML 和 TOML？
 
 YAML 和 TOML 是常用的配置文件格式：
 

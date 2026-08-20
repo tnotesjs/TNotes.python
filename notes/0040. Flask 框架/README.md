@@ -3,10 +3,9 @@
 <!-- region:toc -->
 
 - [1. 本节内容](#1-本节内容)
-- [2. 评价](#2-评价)
-- [3. 如何创建 Flask 应用？](#3-如何创建-flask-应用)
-- [4. 如何用 Flask 构建 RESTful API？](#4-如何用-flask-构建-restful-api)
-- [5. Flask 的模板和蓝图怎么用？](#5-flask-的模板和蓝图怎么用)
+- [2. 如何创建 Flask 应用？](#2-如何创建-flask-应用)
+- [3. 如何用 Flask 构建 RESTful API？](#3-如何用-flask-构建-restful-api)
+- [4. Flask 的模板和蓝图怎么用？](#4-flask-的模板和蓝图怎么用)
 
 <!-- endregion:toc -->
 
@@ -21,11 +20,7 @@
 - 用户认证（Flask-Login）
 - 蓝图与模块化
 
-## 2. 评价
-
-- todo
-
-## 3. 如何创建 Flask 应用？
+## 2. 如何创建 Flask 应用？
 
 Flask 是一个轻量级的 Web 微框架：
 
@@ -61,7 +56,7 @@ if __name__ == "__main__":
     app.run(debug=True)
 ```
 
-## 4. 如何用 Flask 构建 RESTful API？
+## 3. 如何用 Flask 构建 RESTful API？
 
 ```python
 from flask import Flask, request, jsonify
@@ -120,7 +115,7 @@ if __name__ == "__main__":
     app.run(debug=True)
 ```
 
-## 5. Flask 的模板和蓝图怎么用？
+## 4. Flask 的模板和蓝图怎么用？
 
 Jinja2 模板用于渲染 HTML 页面，蓝图用于组织路由：
 
