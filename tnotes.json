@@ -1,0 +1,31 @@
+{
+  "title": "python",
+  "name": "TNotes.python",
+  "description": "python 笔记",
+  "icon": {
+    "src": "https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/assets/icon--python.svg"
+  },
+  "repositoryUrl": "https://github.com/tnotesjs/TNotes.python",
+  "port": 10134,
+  "pageUrl": "https://tnotesjs.github.io/TNotes.python/",
+  "base": "/TNotes.python/",
+  "stats": {
+    "enabled": true,
+    "completedNotesCount": {
+      "25.08": 0,
+      "25.09": 0,
+      "25.10": 0,
+      "25.11": 0,
+      "25.12": 0,
+      "26.01": 0,
+      "26.02": 0,
+      "26.03": 0,
+      "26.04": 0,
+      "26.05": 0,
+      "26.06": 0,
+      "26.07": 0,
+      "26.08": 0,
+      "26.09": 0
+    }
+  }
+}
