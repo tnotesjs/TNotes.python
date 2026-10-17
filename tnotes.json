@@ -3,7 +3,7 @@
   "name": "TNotes.python",
   "description": "python 笔记",
   "icon": {
-    "src": "https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/assets/icon--python.svg"
+    "src": "../assets/kb-icon.svg"
   },
   "repositoryUrl": "https://github.com/tnotesjs/TNotes.python",
   "port": 10134,
